@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 
 declare const Html5QrcodeScanner: any;
@@ -37,8 +36,7 @@ const BarcodeScanner: React.FC<BarcodeScannerProps> = ({ onScanSuccess, onScanEr
         console.error("Failed to clear html5QrcodeScanner.", error);
       });
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [onScanSuccess, onScanError]);
 
   return <div id={readerElementId} className="w-full rounded-lg overflow-hidden"></div>;
 };
