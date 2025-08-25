@@ -1,0 +1,7 @@
+{
+  "name": "바코드 리더 앱 (Barcode Reader App)",
+  "description": "스마트폰 카메라를 사용하여 바코드를 스캔하고, 목록을 관리하며, 메모를 추가할 수 있는 웹 애플리케이션입니다. 손상된 바코드의 경우 수동 입력도 지원합니다. (A web application that uses a smartphone camera to scan barcodes, manage a list, and add memos. Also supports manual entry for damaged barcodes.)",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
